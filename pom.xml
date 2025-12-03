@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://65.0.29.214:8081/repository/manoj-snapshot/</url>
+	      <url>http://13.233.206.93:8081/repository/manoj-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
