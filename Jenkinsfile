@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Sonar Report') {
+        stage('Sonarquebe Report') {
             steps {
                 sh "mvn sonar:sonar"
             }
