@@ -39,7 +39,7 @@ pipeline {
         stage('Deploy to Tomcat') {
             steps {
                 script {
-                    def tomcatUrl = 'http://13.233.231.35:8080/manager/text/deploy?path=/myapp&update=true'
+                    def tomcatUrl = 'http://13.201.54.111:8080/manager/text/deploy?path=/myapp&update=true'
                     def warFile = 'target/maven-web-application.war'
 
                     withCredentials([usernamePassword(credentialsId: 'tomcat-creds', usernameVariable: 'TOMCAT_USER', passwordVariable: 'TOMCAT_PASS')]) {
